@@ -98,7 +98,7 @@ let customers = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to Hall Booking APP</h1>");
+  res.send("<h1>Welcome to Hall Booking API</h1>");
 });
 // all rooms details in the postman API
 app.get("/rooms", (req, res) => {
